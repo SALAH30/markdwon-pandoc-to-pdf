@@ -21,6 +21,8 @@ jobs:
             hyperref
             microtype
             koma-script
+            setspace
+            texliveonfly
 
       - name: Generate the pdf
         run: make

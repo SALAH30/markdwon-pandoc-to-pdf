@@ -12,9 +12,13 @@ jobs:
         uses: pandoc/actions/setup@v1
         with:
           version: 2.19
-          
-      - name: Generate the pdf
-        run: make
+      
+      - uses: xu-cheng/texlive-action@v2
+        with:
+          scheme: full
+          run: |
+            apk add make
+            make
 
       - name: Archive pdf 
         uses: actions/upload-artifact@v4

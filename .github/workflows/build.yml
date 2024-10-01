@@ -20,6 +20,7 @@ jobs:
             scheme-basic
             hyperref
             microtype
+            koma-script
 
       - name: Generate the pdf
         run: make

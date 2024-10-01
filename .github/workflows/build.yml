@@ -22,6 +22,7 @@ jobs:
             microtype
             koma-script
             setspace
+            xcolor
             texliveonfly
 
       - name: Generate the pdf

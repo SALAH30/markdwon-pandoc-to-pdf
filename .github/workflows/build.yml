@@ -24,6 +24,7 @@ jobs:
             setspace
             xcolor
             adjustbox
+            fancyvrb
             texliveonfly
 
       - name: Generate the pdf

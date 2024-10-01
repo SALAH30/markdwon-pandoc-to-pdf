@@ -7,7 +7,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-
+      
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@{main}
+        with:
+          version: 2.19
+          
       - name: Generate the pdf
         run: make
 

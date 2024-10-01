@@ -23,6 +23,7 @@ jobs:
             koma-script
             setspace
             xcolor
+            adjustbox
             texliveonfly
 
       - name: Generate the pdf

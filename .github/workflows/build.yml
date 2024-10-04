@@ -28,27 +28,7 @@ jobs:
             fancyvrb
             booktabs
             texliveonfly
-            lmodern
-            preview-latex-style
-            r-base-core
-            tex-common
             tex-gyre
-            texlive-base
-            texlive-bibtex-extra
-            texlive-extra-utils
-            texlive-fonts-extra
-            texlive-fonts-recommended
-            texlive-lang-arabic
-            texlive-lang-french
-            texlive-lang-greek
-            texlive-latex-base
-            texlive-latex-extra
-            texlive-latex-recommended
-            texlive-luatex
-            texlive-pictures
-            texlive-plain-generic
-            texlive-science
-            texlive-xetex
             tipa
 
       - name: Generate the pdf

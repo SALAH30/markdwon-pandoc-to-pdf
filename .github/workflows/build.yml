@@ -17,8 +17,6 @@ jobs:
         uses: teatimeguest/setup-texlive-action@v3
         with:
           packages: |
-            scheme-full
-            tex-gyre
             tipa
 
       - name: Generate the pdf

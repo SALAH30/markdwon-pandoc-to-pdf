@@ -18,16 +18,6 @@ jobs:
         with:
           packages: |
             scheme-full
-            collection-mathscience
-            hyperref
-            microtype
-            koma-script
-            setspace
-            xcolor
-            adjustbox
-            fancyvrb
-            booktabs
-            texliveonfly
             tex-gyre
             tipa
 
